@@ -10,11 +10,33 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Sets
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/sets/master/_listings/aws-codecommit/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: AWS CodeCommit API - Update Default Branch
+  x-api-slug: actionupdatedefaultbranch-get
+  description: Sets or changes the default branch name for the specified repository.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Developer-Tools_AWSCodeCommit.png
+  humanURL: https://aws.amazon.com/codecommit/
+  baseURL: :///
+  tags: Amazon Web Services, SDK, Orchestration, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/sets/master/_listings/aws-codecommit/actionupdatedefaultbranch-get-openapi.md
+- name: AWS CodeCommit API - Update Repository Description
+  x-api-slug: actionupdaterepositorydescription-get
+  description: Sets or changes the comment or description for a repository.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Developer-Tools_AWSCodeCommit.png
+  humanURL: https://aws.amazon.com/codecommit/
+  baseURL: :///
+  tags: Amazon Web Services, SDK, Orchestration, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/sets/master/_listings/aws-codecommit/actionupdaterepositorydescription-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://aws.codebuild.api.gallery.streamdata.io

@@ -12,11 +12,24 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Sets
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/sets/master/_listings/aws-key-management-service/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: AWS Key Management Service API - Disable Key
+  x-api-slug: actiondisablekey-get
+  description: |-
+    Sets the state of a customer master key (CMK) to disabled, thereby preventing its use
+          for cryptographic operations.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-key-management.jpg
+  humanURL: https://aws.amazon.com/kms/
+  baseURL: :///
+  tags: Amazon Web Services, Encryption, Security, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/sets/master/_listings/aws-key-management-service/actiondisablekey-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://aws.internet.of.things.api.gallery.streamdata.io

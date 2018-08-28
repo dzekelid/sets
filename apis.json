@@ -1,0 +1,546 @@
+{
+	"name": "Streadata.io API Gallery - Sets",
+	"description": "This is a repository of sets APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/sets.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-28",
+	"url": "http://sets.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Reverb",
+			"x-api-slug": "reverb",
+			"description": "Reverb&#8217;s mission is to connect people with meaningful content.Reverb was created to find and connect the rich associations between words, ideas, content, and people. Through our products, we enhance broader knowledge around favorite topics by surfacing interesting information readers might not uncover on their own. We make tools for content understanding at every level from the single word on up. Wordnik: Get a full view of any word you???re interested in, with definitions, example sentences, related words, tweets from Twitter, pictures from Flickr, and much more.Reverb for Publishers: Reverb for Publishers brings relevant content to web audiences and surfaces additional content for publishers.Reverb for Developers: Reverb is committed to the open-source community and is proudly contributing infrastructure software to power applications and enterprises both small and gigantic. Our involvement with the Wordnik API, Scalatra, Swagger and Atmosphere is detailed on our site.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/145_logo.png",
+			"humanURL": "https://helloreverb.com/app",
+			"baseURL": "https://api.reverb.com//api",
+			"tags": "Sets",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/sets/master/_listings/reverb/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Context.IO",
+			"x-api-slug": "context-io",
+			"description": "Create simple email webhooks and code against a free, RESTful, IMAP API.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/172-context-io.jpg",
+			"humanURL": "http://context.io/",
+			"baseURL": "https://api.context.io//2.0/",
+			"tags": "Sets",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/sets/master/_listings/context-io/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Atlassian",
+			"x-api-slug": "atlassian",
+			"description": "Millions of users globally rely on Atlassian products every day for improving software development, project management, collaboration, and code quality.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg",
+			"humanURL": "http://atlassian.com/",
+			"baseURL": "https:////",
+			"tags": "Sets",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/sets/master/_listings/atlassian/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "UK National Archives",
+			"x-api-slug": "uk-national-archives",
+			"description": "The National Archives (TNA) is a non-ministerial government department. Its parent department is the Department for Culture, Media and Sport of the United Kingdom of Great Britain and Northern Ireland. It is the official archive of the UK government and for England and Wales; and guardian of some of the nations most iconic documents, dating back more than 1,000 years. There are separate national archives for Scotland (the National Records of Scotland) and Northern Ireland (the Public Record Office of Northern Ireland).",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/uk-national-archives.jpeg",
+			"humanURL": "http://discovery.nationalarchives.gov.uk/SearchUI/api.htm",
+			"baseURL": "https://api.gettyimages.com//",
+			"tags": "Sets",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/sets/master/_listings/uk-national-archives/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS S3",
+			"x-api-slug": "aws-s3",
+			"description": "Amazon Simple Storage Service (Amazon S3) is object storage with a simple web service interface to store and retrieve any amount of data from anywhere on the web. It is designed to deliver 99.999999999% durability, and scale past trillions of objects worldwide.Customers use S3 as a bulk repository, or data lake, for analytics; backup &amp; recovery; disaster recovery; and serverless computing. Many cloud-native applications even use S3 as primary storage.Its simple to move large volumes of data into or out of S3 with Amazonscloud data migrationoptions. Once data is stored in Amazon S3, it can be automatically tiered into lower cost, longer-termcloud storageclasses like S3 Standard - Infrequent Access and Amazon Glacier for archiving.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AmazonS3.png",
+			"humanURL": "https://aws.amazon.com/s3/",
+			"baseURL": "https:////",
+			"tags": "Sets",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/sets/master/_listings/aws-s3/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Storage Gateway Service",
+			"x-api-slug": "aws-storage-gateway-service",
+			"description": "The AWS Storage Gateway service seamlessly enables hybrid storage between on-premises storage environments andthe AWS Cloud. It combines a multi-protocol storage appliance with highly efficient network connectivity toAmazon cloud storageservices, delivering local performance with virtually unlimited scale. Customers use it in remote offices and datacenters for hybrid cloud workloads, backup and restore, archive, disaster recovery, and tiered storage.The Storage Gateway virtual appliance connects seamlessly to your local infrastructure as a file server, as a volume, or as a virtual tape library (VTL). This seamless connection makes it simple for organizations to augment existing on-premises storage investments with the high scalability, extreme durability and low cost of cloud storage.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AWSStorageGateway.png",
+			"humanURL": "https://aws.amazon.com/storagegateway/",
+			"baseURL": ":///",
+			"tags": "Sets",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/sets/master/_listings/aws-storage-gateway-service/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Redshift",
+			"x-api-slug": "aws-redshift",
+			"description": "Amazon Redshift is a fast, fully managed, petabyte-scaledata warehousethat makes it simple and cost-effective to analyze all your data using your existing business intelligence tools. Start small for $0.25 per hour with no commitments and scale to petabytes for $1,000 per terabyte per year, less than a tenth the cost of traditional solutions. Customers typically see 3x compression, reducing their costs to $333 per uncompressed terabyte per year.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRedshift.png",
+			"humanURL": "https://aws.amazon.com/redshift/",
+			"baseURL": ":///",
+			"tags": "Sets",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/sets/master/_listings/aws-redshift/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS CodeCommit",
+			"x-api-slug": "aws-codecommit",
+			"description": "AWS CodeCommit is a fully-managed source control service that makes it easy for companies to host secure and highly scalable private Git repositories. CodeCommit eliminates the need to operate your own source control system or worry about scaling its infrastructure. You can use CodeCommit to securely store anything from source code to binaries, and it works seamlessly with your existing Git tools.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Developer-Tools_AWSCodeCommit.png",
+			"humanURL": "https://aws.amazon.com/codecommit/",
+			"baseURL": ":///",
+			"tags": "Sets",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/sets/master/_listings/aws-codecommit/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS CloudFormation",
+			"x-api-slug": "aws-cloudformation",
+			"description": "AWS CloudFormation gives developers and systems administrators an easy way to create and manage a collection of related AWS resources, provisioning and updating them in an orderly and predictable fashion.You can use AWS CloudFormations?sample templates?or create your own templates to describe the AWS resources, and any associated dependencies or runtime parameters, required to run your application. You do not need to figure out the order for provisioning AWS services or the subtleties of making those dependencies work. CloudFormation takes care of this for you. After the AWS resources are deployed, you can modify and update them in a controlled and predictable way, in effect applying version control to your AWS infrastructure the same way you do with your software. You can also visualize your templates as diagrams and edit them using a drag-and-drop interface with the?AWS CloudFormation Designer.You can deploy and update a template and its associated collection of resources (called a stack) by using the AWS Management Console, AWS Command Line Interface, or APIs. CloudFormation is available at no additional charge, and you pay only for the AWS resources needed to run your applications.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSCloudFormation.png",
+			"humanURL": "https://aws.amazon.com/cloudformation/",
+			"baseURL": ":///",
+			"tags": "Sets",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/sets/master/_listings/aws-cloudformation/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Identity and Access Management",
+			"x-api-slug": "aws-identity-and-access-management",
+			"description": "AWS Identity and Access Management (IAM) enables you to securely control access to AWS services and resources for your users. Using IAM, you can create and manage AWS users and groups, and use permissions to allow and deny their access to AWS resources.IAM is a feature of your AWS account offered at no additional charge. You will be charged only for use of other AWS services by your users.To get started using IAM, orif you have already registered with AWS, go to theAWS Management Consoleand get started with theseIAM Best Practices.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSIAM.png",
+			"humanURL": "https://aws.amazon.com/iam/",
+			"baseURL": ":///",
+			"tags": "Sets",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/sets/master/_listings/aws-identity-and-access-management/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Inspector",
+			"x-api-slug": "aws-inspector",
+			"description": "Amazon Inspector is an automated security assessment service that helps improve the security and compliance of applications deployed on AWS. Amazon Inspector automatically assesses applications for vulnerabilities or deviations from best practices. After performing an assessment, Amazon Inspector produces a detailed list of security findings prioritized by level of severity.To help you get started quickly, Amazon Inspector includes a knowledge base of hundreds of rules mapped to common security best practices and vulnerability definitions. Examples of built-in rules include checking for remote root login being enabled, or vulnerable software versions installed. These rules are regularly updated by AWS security researchers.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AmazonInspector.png",
+			"humanURL": "https://aws.amazon.com/inspector/",
+			"baseURL": ":///",
+			"tags": "Sets",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/sets/master/_listings/aws-inspector/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Key Management Service",
+			"x-api-slug": "aws-key-management-service",
+			"description": "AWS Key Management Service (KMS) is a managed service that makes it easy for you to create and control the encryption keys used to encrypt your data, and uses Hardware Security Modules (HSMs) to protect the security of your keys. AWS Key Management Service is integrated with several other AWS services to help you protect the data you store with these services. AWS Key Management Service is also integrated with AWS CloudTrail to provide you with logs of all key usage to help meet your regulatory and compliance needs.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-key-management.jpg",
+			"humanURL": "https://aws.amazon.com/kms/",
+			"baseURL": ":///",
+			"tags": "Sets",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/sets/master/_listings/aws-key-management-service/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS WAF",
+			"x-api-slug": "aws-waf",
+			"description": "AWS WAF is a web application firewall that helps protect your webapplications from common web exploits that could affect applicationavailability, compromise security, or consume excessive resources. AWSWAF gives you control over which traffic to allow or block to your webapplications by defining customizable web security rules. You can use AWSWAF to create custom rules that block common attack patterns, such as SQLinjection or cross-site scripting, and rules that are designed for your specific application. New rules can be deployed within minutes, letting you respondquickly to changing traffic patterns. Also, AWS WAF includes a full-featuredAPI that you can use to automate the creation, deployment, and maintenanceof web security rules.With AWS WAF you pay only for what you use. AWS WAF pricing is based on how many rules you deploy and how many web requests your web application receives. There are no upfront commitments.You can deploy AWS WAF on either Amazon CloudFront as part of your CDN solution or the Application Load Balancer (ALB) that fronts your web servers or origin servers running on EC2.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSWAF.png",
+			"humanURL": "https://aws.amazon.com/waf/",
+			"baseURL": ":///",
+			"tags": "Sets",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/sets/master/_listings/aws-waf/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Elastic MapReduce",
+			"x-api-slug": "aws-elastic-mapreduce",
+			"description": "Amazon EMR provides a managed Hadoop framework that makes it easy, fast, and cost-effective to process vast amounts of data across dynamically scalable Amazon EC2 instances. You can also run other popular distributed frameworks such as Apache Spark, HBase, Presto, and Flink in Amazon EMR, and interact with data in other AWS data stores such as Amazon S3 and Amazon DynamoDB.Amazon EMR securely and reliably handles a broad set of big data use cases, including log analysis, web indexing, data transformations (ETL), machine learning, financial analysis, scientific simulation, and bioinformatics.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonEMR.png",
+			"humanURL": "https://aws.amazon.com/emr/",
+			"baseURL": ":///",
+			"tags": "Sets",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/sets/master/_listings/aws-elastic-mapreduce/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Cognito",
+			"x-api-slug": "aws-cognito",
+			"description": "Amazon Cognito lets you easily add user sign-up and sign-in to your mobile and web apps. With Amazon Cognito, you also have the options to authenticate users through social identity providers such as Facebook, Twitter, or Amazon, with SAML identity solutions, or by using your own identity system. In addition, Amazon Cognito enables you to save data locally on users devices, allowing your applications to work even when the devices are offline. You can then synchronize data across users devices so that their app experience remains consistent regardless of the device they use. With Amazon Cognito, you can focus on creating great app experiences instead of worrying about building, securing, and scaling a solution to handle user management, authentication, and sync across devices.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-cognito.png",
+			"humanURL": "https://aws.amazon.com/cognito/",
+			"baseURL": "https:///",
+			"tags": "Sets",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/sets/master/_listings/aws-cognito/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Simple Queue Service",
+			"x-api-slug": "aws-simple-queue-service",
+			"description": "Amazon Simple Queue Service (SQS) is a fast, reliable, scalable, fully managed message queuing service. Amazon SQS makes it simple and cost-effective to decouple the components of a cloud application. You can use Amazon SQS to transmit any volume of data, without losing messages or requiring other services to be always available. Amazon SQS includesstandard queueswith high throughput and at-least-once processing, andFIFO queuesthat provide FIFO (first-in, first-out) delivery and exactly-once processing. With Amazon SQS, you can offload the administrative burden of operating and scaling a highly available messaging cluster, while paying a low price for only what you use.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Application-Services_AmazonSQS.png",
+			"humanURL": "https://aws.amazon.com/sqs/",
+			"baseURL": ":///",
+			"tags": "Sets",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/sets/master/_listings/aws-simple-queue-service/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Simple Email Service",
+			"x-api-slug": "aws-simple-email-service",
+			"description": "Amazon Simple Email Service (Amazon SES) is a cost-effective email service built on the reliable and scalable infrastructure that Amazon.com developed to serve its own customer base. With Amazon SES, you can send and receive email with no required minimum commitments &ndash; you pay as you go, and you only pay for what you use.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Application-Services_AmazonSES.png",
+			"humanURL": "https://aws.amazon.com/ses/",
+			"baseURL": ":///",
+			"tags": "Sets",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/sets/master/_listings/aws-simple-email-service/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Simple Notification Service",
+			"x-api-slug": "aws-simple-notification-service",
+			"description": "Amazon Simple Notification Service (Amazon SNS) is a fast, flexible, fully managed push notification service that lets you send individual messages or to fan-out messages to large numbers of recipients. Amazon SNS makes it simple and cost effective to send push notifications to mobile device users, email recipients or even send messages to other distributed services.With Amazon SNS, you can send notifications to Apple, Google, Fire OS, and Windows devices, as well as to Android devices in China with Baidu Cloud Push. You can use SNS to send SMS messages to mobile device users worldwide.Beyond these endpoints, Amazon SNS can also deliver messages toAmazon Simple Queue Service(SQS),AWS Lambda functions, or to any HTTP endpoint.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Mobile-Services_AmazonSNS.png",
+			"humanURL": "https://aws.amazon.com/sns/",
+			"baseURL": ":///",
+			"tags": "Sets",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/sets/master/_listings/aws-simple-notification-service/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Internet of Things",
+			"x-api-slug": "aws-internet-of-things",
+			"description": "AWS IoT is a managed cloud platform that lets connected devices easily and securely interact with cloud applications and other devices. AWS IoT can support billions of devices and trillions of messages, and can process and route those messages to AWS endpoints and to other devices reliably and securely. With AWS IoT, your applications can keep track of and communicate with all your devices, all the time, even when they aren&rsquo;t connected.AWS IoT makes it easy to use AWS services like AWS Lambda, Amazon Kinesis, Amazon S3, Amazon Machine Learning, Amazon DynamoDB, Amazon CloudWatch, AWS CloudTrail, and Amazon Elasticsearch Service with built-in Kibana integration, to build IoT applications that gather, process, analyze and act on data generated by connected devices, without having to manage any infrastructure.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Internet-Of-Things_AWSIoT.png",
+			"humanURL": "https://aws.amazon.com/iot-platform/",
+			"baseURL": ":///",
+			"tags": "Sets",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/sets/master/_listings/aws-internet-of-things/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Auto Scaling",
+			"x-api-slug": "aws-auto-scaling",
+			"description": "Auto Scaling helps you maintain application availability and allows you to scale yourAmazon EC2capacity up or down automatically according to conditions you define. You can use Auto Scaling to help ensure that you are running your desired number of Amazon EC2 instances. Auto Scaling can also automatically increase the number of Amazon EC2 instances during demand spikes to maintain performance and decrease capacity during lulls to reduce costs. Auto Scaling is well suited both to applications that have stable demand patterns or that experience hourly, daily, or weekly variability in usage.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2_AutoScaling.png",
+			"humanURL": "https://aws.amazon.com/autoscaling/",
+			"baseURL": ":///",
+			"tags": "Sets",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/sets/master/_listings/aws-auto-scaling/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Elastic Load Balancing",
+			"x-api-slug": "aws-elastic-load-balancing",
+			"description": "Elastic Load Balancing automatically distributes incoming application traffic across multiple Amazon EC2 instances. It enables you to achieve fault tolerance in your applications, seamlessly providing the required amount of load balancing capacity needed to route application traffic.Elastic Load Balancing offers two types of load balancers that both feature high availability, automatic scaling, and robust security. These include theClassic Load Balancerthat routes traffic based on either application or network level information, and theApplication Load Balancerthat routes traffic based on advanced application level information that includes the content of the request. The Classic Load Balancer is ideal for simple load balancing of traffic across multiple EC2 instances, while the Application Load Balancer is ideal for applications needing advanced routing capabilities, microservices, and container-based architectures. Application Load Balancer offers ability to route traffic to multiple services or load balance across multiple ports on the same EC2 instance.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_ElasticLoadBalancing.png",
+			"humanURL": "https://aws.amazon.com/elasticloadbalancing/",
+			"baseURL": ":///",
+			"tags": "Sets",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/sets/master/_listings/aws-elastic-load-balancing/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Route 53",
+			"x-api-slug": "aws-route-53",
+			"description": "Amazon Route 53 is a highly available and scalable cloud Domain Name System (DNS) web service. It is designed to give developers and businesses an extremely reliable and cost effective way to route end users to Internet applications by translating names like www.example.com into the numeric IP addresses like 192.0.2.1 that computers use to connect to each other. Amazon Route 53 is fully compliant with IPv6 as well.Amazon Route 53 effectively connects user requests to infrastructure running in AWS &ndash; such as Amazon EC2 instances, Elastic Load Balancing load balancers, or Amazon S3 buckets &ndash; and can also be used to route users to infrastructure outside of AWS. You can use Amazon Route 53 to configure DNS health checks to route traffic to healthy endpoints or to independently monitor the health of your application and its endpoints. Amazon Route 53 Traffic Flow makes it easy for you to manage traffic globally through a variety of routing types, including Latency Based Routing, Geo DNS, and Weighted Round Robin&mdash;all of which can be combined with DNS Failover in order to enable a variety of low-latency, fault-tolerant architectures. Using Amazon Route 53 Traffic Flow&rsquo;s simple visual editor, you can easily manage how your end-users are routed to your application&rsquo;s endpoints&mdash;whether in a single AWS region or distributed around the globe. Amazon Route 53 also offers Domain Name Registration &ndash; you can purchase and manage domain names such as example.com and Amazon Route 53 will automatically configure DNS settings for your domains.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Networking_AmazonRoute53.png",
+			"humanURL": "https://aws.amazon.com/route53/",
+			"baseURL": ":///",
+			"tags": "Sets",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/sets/master/_listings/aws-route-53/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Play",
+			"x-api-slug": "google-play",
+			"description": "The Google Play Developer API allows you to perform a number of publishing and app-management tasks. It includes two components: The Subscriptions and In-App Purchases API lets you manage in-app purchases and subscriptions. The Publishing API lets you upload and publish apps, and perform other publishing-related tasks.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-play.png",
+			"humanURL": "https://play.google.com/store",
+			"baseURL": "https:///",
+			"tags": "Sets",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/sets/master/_listings/google-play/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Mattermost",
+			"x-api-slug": "mattermost",
+			"description": "Open source, private cloud Slack-alternative, Workplace messaging for web, PCs and phones. MIT-licensed. Hundreds of contributors. 14 languages. Secure, configurable, and scalable from teams to the enterprise.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/mattermost-logo.png",
+			"humanURL": "https://mattermost.com",
+			"baseURL": "https:///",
+			"tags": "Sets",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/sets/master/_listings/mattermost/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Avaza",
+			"x-api-slug": "avaza",
+			"description": "Avaza is a beautiful online software suite with modules for Project Management, Timesheets, Expenses &amp; Invoicing. Access from anywhere, with any device. Avaza is the leading all-in-one software for running client focused businesses. Avaza allows businesses of all sizes to more easily and effectively manage team projects, time tracking, expense reporting, quoting &amp; invoicing. It can be accessed simply via a web browser from anywhere in the world on any device.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28373-avaza.jpg",
+			"humanURL": "https://www.avaza.com",
+			"baseURL": "https:///",
+			"tags": "Sets",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/sets/master/_listings/avaza/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "CollabNet",
+			"x-api-slug": "collabnet",
+			"description": "CollabNet is a software development and delivery solutions provider headquartered in South San Francisco, California.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28840-community-versionone-com.jpg",
+			"humanURL": "https://www.collab.net/",
+			"baseURL": "https:////ctfrest/foundation/v1",
+			"tags": "Sets",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/sets/master/_listings/collabnet/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Plentymarkets",
+			"x-api-slug": "plentymarkets",
+			"description": "plentymarkets is an all-in-one e-commerce ERP solution, which combines a comprehensive stock management system with a versatile shop system and effortless multichannel sales. Thanks to comprehensive functions and interfaces that include all steps of the e-commerce value chain, you can use the cloud based software to completely automate all of your e-business processes as well as your companys own individual processes.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png",
+			"humanURL": "http://www.plentymarkets.co.uk",
+			"baseURL": "https://example.com//",
+			"tags": "Sets",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/sets/master/_listings/plentymarkets/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Dezrez",
+			"x-api-slug": "dezrez",
+			"description": "Cloud based estate agent software , sales & letting agent software, estate agent website design and property management software - Dezrez  Services",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg",
+			"humanURL": "https://www.dezrez.com",
+			"baseURL": "https://api.dezrez.com//",
+			"tags": "Sets",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/sets/master/_listings/dezrez/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Sets",
+	"include": [
+		{
+			"name": "Reverb",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/sets/master/_listings/reverb/apis.yaml"
+		},
+		{
+			"name": "Context.IO",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/sets/master/_listings/context-io/apis.yaml"
+		},
+		{
+			"name": "Atlassian",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/sets/master/_listings/atlassian/apis.yaml"
+		},
+		{
+			"name": "UK National Archives",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/sets/master/_listings/uk-national-archives/apis.yaml"
+		},
+		{
+			"name": "AWS S3",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/sets/master/_listings/aws-s3/apis.yaml"
+		},
+		{
+			"name": "AWS Storage Gateway Service",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/sets/master/_listings/aws-storage-gateway-service/apis.yaml"
+		},
+		{
+			"name": "AWS Redshift",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/sets/master/_listings/aws-redshift/apis.yaml"
+		},
+		{
+			"name": "AWS CodeCommit",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/sets/master/_listings/aws-codecommit/apis.yaml"
+		},
+		{
+			"name": "AWS CloudFormation",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/sets/master/_listings/aws-cloudformation/apis.yaml"
+		},
+		{
+			"name": "AWS Identity and Access Management",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/sets/master/_listings/aws-identity-and-access-management/apis.yaml"
+		},
+		{
+			"name": "AWS Inspector",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/sets/master/_listings/aws-inspector/apis.yaml"
+		},
+		{
+			"name": "AWS Key Management Service",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/sets/master/_listings/aws-key-management-service/apis.yaml"
+		},
+		{
+			"name": "AWS WAF",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/sets/master/_listings/aws-waf/apis.yaml"
+		},
+		{
+			"name": "AWS Elastic MapReduce",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/sets/master/_listings/aws-elastic-mapreduce/apis.yaml"
+		},
+		{
+			"name": "AWS Cognito",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/sets/master/_listings/aws-cognito/apis.yaml"
+		},
+		{
+			"name": "AWS Simple Queue Service",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/sets/master/_listings/aws-simple-queue-service/apis.yaml"
+		},
+		{
+			"name": "AWS Simple Email Service",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/sets/master/_listings/aws-simple-email-service/apis.yaml"
+		},
+		{
+			"name": "AWS Simple Notification Service",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/sets/master/_listings/aws-simple-notification-service/apis.yaml"
+		},
+		{
+			"name": "AWS Internet of Things",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/sets/master/_listings/aws-internet-of-things/apis.yaml"
+		},
+		{
+			"name": "AWS Auto Scaling",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/sets/master/_listings/aws-auto-scaling/apis.yaml"
+		},
+		{
+			"name": "AWS Elastic Load Balancing",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/sets/master/_listings/aws-elastic-load-balancing/apis.yaml"
+		},
+		{
+			"name": "AWS Route 53",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/sets/master/_listings/aws-route-53/apis.yaml"
+		},
+		{
+			"name": "Google Play",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/sets/master/_listings/google-play/apis.yaml"
+		},
+		{
+			"name": "Mattermost",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/sets/master/_listings/mattermost/apis.yaml"
+		},
+		{
+			"name": "Avaza",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/sets/master/_listings/avaza/apis.yaml"
+		},
+		{
+			"name": "CollabNet",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/sets/master/_listings/collabnet/apis.yaml"
+		},
+		{
+			"name": "Plentymarkets",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/sets/master/_listings/plentymarkets/apis.yaml"
+		},
+		{
+			"name": "Dezrez",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/sets/master/_listings/dezrez/apis.yaml"
+		}
+	]
+}

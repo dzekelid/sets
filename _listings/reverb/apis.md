@@ -17,11 +17,22 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/1
 x-kinRank: "8"
 x-alexaRank: "0"
 tags: Sets
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/sets/master/_listings/reverb/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: reverb - Get Curated Sets Slug
+  x-api-slug: curated-setsslug-get
+  description: Get curated sets slug.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/145_logo.png
+  humanURL: https://helloreverb.com/app
+  baseURL: https://api.reverb.com//api
+  tags: Dictionary, Spelling, API LIfeyclessss, Stack Network, Commerce, Relative
+    Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/sets/master/_listings/reverb/curated-setsslug-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://respoke.api.gallery.streamdata.io

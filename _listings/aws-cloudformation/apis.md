@@ -20,8 +20,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Sets
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/sets/master/_listings/aws-cloudformation/apis.md
 specificationVersion: "0.14"
 apis:
@@ -39,6 +39,18 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/sets/master/_listings/aws-cloudformation/actionlistchangesets-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/sets/master/_listings/aws-cloudformation/actionlistchangesets-get-openapi.md
+- name: AWS CloudFormation API - Set Stack Policy
+  x-api-slug: actionsetstackpolicy-get
+  description: Sets a stack policy for a specified stack.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSCloudFormation.png
+  humanURL: https://aws.amazon.com/cloudformation/
+  baseURL: :///
+  tags: Amazon Web Services, Management, Cloud, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Deployments, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/sets/master/_listings/aws-cloudformation/actionsetstackpolicy-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://aws.certificate.manager.api.gallery.streamdata.io

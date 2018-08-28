@@ -13,11 +13,24 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Sets
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/sets/master/_listings/aws-elastic-mapreduce/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: AWS Elastic MapReduce API - Set Visible To All Users
+  x-api-slug: actionsetvisibletoallusers-get
+  description: Sets whether all AWS Identity and Access Management (IAM) users under
+    your account can access the specified job flows.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonEMR.png
+  humanURL: https://aws.amazon.com/emr/
+  baseURL: :///
+  tags: Amazon Web Services, Data, MapReduce, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Databases, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/sets/master/_listings/aws-elastic-mapreduce/actionsetvisibletoallusers-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://aws.elastic.load.balancing.api.gallery.streamdata.io
